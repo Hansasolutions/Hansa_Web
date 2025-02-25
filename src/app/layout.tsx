@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans_SC, Roboto } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const notoSansSC = Noto_Sans_SC({ 
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  variable: '--font-noto-sans-sc'
+});
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  subsets: ['latin'],
+  variable: '--font-roboto'
+});
 
 export const metadata: Metadata = {
   title: "汉萨智联 | HANSEATIC SOLUTIONS | 助力中国企业进军欧洲市场",
@@ -15,15 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh" className="scroll-smooth bg-[var(--background)]">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="zh" className={`scroll-smooth bg-[var(--background)] ${notoSansSC.variable} ${roboto.variable}`}>
       <body className={`${inter.className} bg-[var(--background)]`}>{children}</body>
     </html>
   );

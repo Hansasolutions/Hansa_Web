@@ -103,7 +103,7 @@ const HeroSection = () => {
                 </div>
                 <div className="mt-8 text-center">
                   <p className="text-[var(--primary)] font-bold text-2xl italic">
-                    "您的欧洲首站，从这里开始"
+                    &ldquo;您的欧洲首站，从这里开始&rdquo;
                   </p>
                 </div>
               </div>

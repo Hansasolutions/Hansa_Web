@@ -4,8 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import Image from 'next/image';
-import { FaLinkedin, FaEnvelope, FaCheckCircle, FaGlobeEurope, FaHandshake, FaUserFriends } from 'react-icons/fa';
+import { FaCheckCircle, FaGlobeEurope, FaHandshake, FaUserFriends } from 'react-icons/fa';
 
 const AboutSection = () => {
   const { t } = useTranslation();
