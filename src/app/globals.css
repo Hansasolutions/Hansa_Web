@@ -3,19 +3,70 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --primary: #0a3d62;
+  --primary-dark: #072a43;
+  --secondary: #3498db;
+  --accent: #f39c12;
+  --background: #f0f2f5;
   --foreground: #171717;
+  --gray-light: #f5f5f5;
+  --gray: #e0e0e0;
+  --gray-dark: #9e9e9e;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --primary: #1565c0;
+    --primary-dark: #0d47a1;
+    --secondary: #42a5f5;
+    --accent: #ffb74d;
+    --background: #1e1e1e;
+    --foreground: #f5f5f5;
+    --gray-light: #333333;
+    --gray: #555555;
+    --gray-dark: #777777;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  html, body {
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: 'Roboto', 'Noto Sans SC', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .container-custom {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-6 py-2 rounded-md font-medium transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply bg-[var(--primary)] text-white hover:bg-[var(--primary-dark)];
+  }
+  
+  .btn-secondary {
+    @apply bg-[var(--secondary)] text-white hover:opacity-90;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-[var(--primary)] text-[var(--primary)] hover:bg-[var(--primary)] hover:text-white;
+  }
+  
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+  
+  .card {
+    @apply bg-white dark:bg-[var(--gray-light)] rounded-lg shadow-md p-6 transition-all duration-300 hover:shadow-lg;
+  }
 }

@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Our Services",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "slogan": "Seamless Localization for Your Business in Europe",
+    "description": "We offer end-to-end localization services for Chinese companies expanding into the European market, ensuring seamless market entry and growth.",
+    "cta": {
+      "consult": "Consult Now",
+      "wechat": "WeChat Consult"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description1": "We are a professional consulting firm focused on helping Chinese companies enter the European market. Our core team consists of professionals from China, Germany, and Russia with extensive cross-cultural business experience.",
+    "description2": "Our mission is to provide Chinese enterprises with comprehensive European market entry strategies and implementation support, helping you overcome language, cultural, and legal barriers to achieve smooth business expansion in Europe.",
+    "description3": "With years of industry experience and an extensive business network, we have successfully helped numerous Chinese companies establish a solid business foundation in the European market."
+  },
+  "services": {
+    "title": "Our Services",
+    "market_research": {
+      "title": "Market Research & Consulting",
+      "description": "In-depth analysis of European market trends, competitive landscape, and consumer behavior to provide data support for your business decisions."
+    },
+    "legal": {
+      "title": "Company Registration & Legal Support",
+      "description": "Professional services for company registration, legal compliance, tax planning, etc. in European countries to ensure your business operates legally and compliantly."
+    },
+    "marketing": {
+      "title": "Brand Promotion & Marketing",
+      "description": "Customized localization marketing strategies for your brand based on European market characteristics to increase brand awareness and market acceptance."
+    },
+    "business": {
+      "title": "Business Connections & Supply Chain",
+      "description": "Assist you in establishing connections with potential European customers and partners, optimizing supply chain structure, and improving operational efficiency."
+    },
+    "operations": {
+      "title": "Local Operations & Customer Support",
+      "description": "Provide localized operational support and customer service solutions to ensure your business runs smoothly in the European market."
+    }
+  },
+  "partners": {
+    "title": "Partners"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "address": {
+      "china": "China Office Address",
+      "germany": "Germany Office Address"
+    },
+    "phone": "Phone",
+    "email": "Email",
+    "wechat": "WeChat Customer Service",
+    "form": {
+      "title": "Online Inquiry",
+      "name": "Name",
+      "company": "Company",
+      "contact": "Contact Information",
+      "message": "Brief Description of Needs",
+      "submit": "Submit"
+    }
+  },
+  "footer": {
+    "copyright": "Copyright © 2024 Company Name. All Rights Reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  }
+} 

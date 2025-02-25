@@ -1,0 +1,6 @@
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Hansasolutions
+user.email=xiao_k_ai@126.com
