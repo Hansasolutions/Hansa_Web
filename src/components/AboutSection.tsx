@@ -30,21 +30,6 @@ const AboutSection = () => {
     },
   };
 
-  const teamMembers = [
-    {
-      name: '肖凯',
-      title: 'CEO',
-      image: '/images/team/xiao-kai.jpg',
-      description: '拥有十年欧洲市场经验，精通跨境商务与国际贸易，致力于为中国企业提供全方位的欧洲市场拓展服务。',
-    },
-    {
-      name: 'Anna',
-      title: '联合创始人',
-      image: '/images/team/anna.jpg',
-      description: '欧洲本土专家，深谙欧洲商业环境与文化，专注于帮助中国企业实现本土化战略，建立可持续的欧洲业务。',
-    },
-  ];
-
   // 将标题分割为两部分，以便单独设置样式
   const titleParts = t('about.title').split('——');
   const titleFirst = titleParts[0] || '';
